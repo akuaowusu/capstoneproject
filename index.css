@@ -1,6 +1,8 @@
 .navbar {
   overflow: hidden;
   background-color: black;
+  display:flex;
+  justify-content: space-evenly;
 }
 
 .navbar a {
@@ -26,22 +28,13 @@ h1 {
   text-align: center}
 
 button {
-  width: 100px;
+  width: 150px;
+  height: 150px;
 }
 
-.row1 {
+.row1, .row2, .row3 {
   display: flex;
   justify-content: space-evenly;
   margin: auto;
-}
-
-.row2 {
-  display: flex;
-  justify-content: space-evenly;
-  margin: auto;
-}
-.row3 {
-  display: flex;
-  justify-content: space-evenly;
-  margin: auto;
+  padding-bottom: 50px
 }

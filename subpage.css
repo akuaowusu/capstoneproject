@@ -1,6 +1,12 @@
+h1 {
+  text-align: center;
+}
+
 .navbar {
   overflow: hidden;
   background-color: black;
+  display:flex;
+  justify-content: space-evenly;
 }
 
 .navbar a {
@@ -20,4 +26,14 @@
 .navbar a.active {
   background-color: lightblue;
   color: black;
+}
+
+.backgroundnoises {
+  display:flex;
+  justify-content: center;
+  height:40px;
+}
+
+button {
+  width: 100px;
 }
