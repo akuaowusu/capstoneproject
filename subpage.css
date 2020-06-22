@@ -37,3 +37,18 @@ h1 {
 button {
   width: 100px;
 }
+
+h1 {
+    background-image: "headphones.jpeg"
+    position: absolute;
+    left: 37%;
+    top: 50%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
