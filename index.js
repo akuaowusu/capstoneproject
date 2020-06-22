@@ -1,114 +1,185 @@
-// function playRain () {
-//   var rain = new Audio("rain.mp3");
-//   rain.play();
-//   rain.loop = true;
+// let rain_counter = 0
+// function playRain (audio) {
+//   var rain = new Audio(audio);
+//     if (rain_counter % 2 === 0){
+//       rain.play();
+//       rain_counter += 1;
+//       rain.loop=true;
+//     }
+//     else {
+//       rain.pause();
+//       rain_counter += 1;
+//     }
 // }
 
-// $('#rain').on('click', function() {
-//   playRain();
-//   console.log("rain")
-// });
-
-// function playWind () {
-//   var wind = new Audio("wind.mp3");
-//   wind.play();
-//   wind.loop=true;
-// }
-
-// $('#wind').on('click', function() {
-//   playWind();
-//   console.log("wind")
-// });
-
-// function playBirds () {
-//   var birds = new Audio("birds.mp3");
-//   birds.play();
-//   bird.loop=true;
-// }
-
-// $('#birds').on('click', function() {
-//   playBirds();
-//   console.log("birds")
-//   birds.lopp=true;
-// });
-
-// function playCampfire () {
-//   var campfire = new Audio("campfire.mp3");
-//   campfire.play();
-//   campfire.loop=true;
-// }
-
-// $('#campfire').on('click', function() {
-//   playCampfire();
-//   console.log("campfire")
-// });
-
-// function playBeach () {
-//   var beach = new Audio("beach.mp3");
-//   beach.play();
-//   campfire.loop=true;
-// }
-
-// $('#beach').on('click', function() {
-//   playBeach();
-//   console.log("beach")
-// });
-
-var counter = 0
-function playAudio(audio){
-    var audio1 = document.getElementById(audio);
-    if (counter % 2 === 0){
-        audio1.play();
-        counter += 1;
-        audio1.loop=true;
+$('#rain').on('click', function() {
+   //playRain();
+    let rain_counter = 0
+    var rain = new Audio("/sounds/birds.mp3");
+    if (rain_counter % 2 === 0){
+      rain.play();
+      rain_counter += 1;
+      rain.loop=true;
     }
     else {
-        audio1.pause();
-        counter += 1;
+      rain.pause();
+      rain_counter += 1;
+    }
+   console.log("rain")
+ });
+
+let wind_counter = 0
+function playWind () {
+  var wind = new Audio("/sounds/wind.mp3");
+    if (wind_counter % 2 === 0){
+      wind.play();
+      wind_counter += 1;
+      wind.loop=true;
+    }
+    else {
+      wind.pause();
+      wind_counter += 1;
+    }
+ }
+
+ $('#wind').on('click', function() {
+  let wind_counter = 0
+  playWind();
+   console.log("wind")
+ });
+
+
+function playBirds (audio) {
+  var birds = new Audio("/sounds/birds.mp3");
+    if (birds_counter % 2 === 0){
+      birds.play();
+      birds_counter += 1;
+      birds.loop=true;
+    }
+    else {
+      birds.pause();
+      birds_counter += 1;
     }
 }
 
+$('#birds').on('click', function() {
+  let birds_counter = 0;
+  playBirds();
+   console.log("birds")
+ });
 
-// function playTyping () {
-//   var typing = new Audio("typing.mp3");
-//   typing.play();
-//   typing.loop=true;
-// }
 
-// $('#typing').on('click', function() {
-//   playTyping();
-//   console.log("typing")
-// });
+function playCampfire () {
+  var campfire = new Audio("/sounds/campfire.mp3");
+    if (campfire_counter % 2 === 0){
+      campfire.play();
+      campfire_counter += 1;
+      campfire.loop=true;
+    }
+    else {
+      campfire.pause();
+      campfire_counter += 1;
+    }
+ }
 
-// function playCafe () {
-//   var cafe = new Audio("cafe.mp3");
-//   cafe.play();
-//   cafe.loop=true;
-// }
+ $('#campfire').on('click', function() {
+  let canpfire_counter = 0
+  playCampfire();
+   console.log("campfire")
+ });
 
-// $('#cafe').on('click', function() {
-//   playCafe();
-//   console.log("cafe")
-// });
+function playBeach () {
+  var rain = new Audio("/sounds/beach.mp3");
+    if (beach_counter % 2 === 0){
+      rain.play();
+      beach_counter += 1;
+      rain.loop=true;
+    }
+    else {
+      rain.pause();
+      beach_counter += 1;
+    }
+}
+ $('#beach').on('click', function() {
+  let beach_counter = 0
+  playBeach();
+   console.log("beach")
+ });
 
-// function playCity () {
-//   var city = new Audio("city.mp3");
-//   city.play();
-//   city.loop=true;
-// }
+function playTyping (audio) {
+  var typing = new Audio("/sounds/typing.mp3");
+    if (typing_counter % 2 === 0){
+      typing.play();
+      typing_counter += 1;
+      typing.loop=true;
+    }
+    else {
+      typing.pause();
+      typing_counter += 1;
+    }
+}
 
-// $('#city').on('click', function() {
-//   playCity();
-//   console.log("city")
-// });
+ $('#typing').on('click', function() {
+  let typing_counter = 0
+   playTyping();
+   console.log("typing")
+ });
 
-// function playWindchimes () {
-//   var windchimes = new Audio("windchimes.mp3");
-//   windchimes.play();
-//   windchimes.loop=true;
-// }
+let cafe_counter = 0
+function playCafe (audio) {
+  var cafe = new Audio("/sounds/cafe.mp3");
+    if (cafe_counter % 2 === 0){
+      cafe.play();
+      cafe_counter += 1;
+      cafe.loop=true;
+    }
+    else {
+      cafe.pause();
+      cafe_counter += 1;
+    }
+}
 
-// $('#windchimes').on('click', function() {
-//   playWindchimes();
-//   console.log("windchimes")
-// });
+ $('#cafe').on('click', function() {
+  let cafe_counter = 0
+  playCafe();
+   console.log("cafe")
+ });
+
+function playCity () {
+  var city = new Audio("/sounds/city.mp3");
+    if (city_counter % 2 === 0){
+      city.play();
+      city_counter += 1;
+      city.loop=true;
+    }
+    else {
+      city.pause();
+      city_counter += 1;
+    }
+ }
+
+ $('#city').on('click', function() {
+   let city_counter =0 ;
+   playCity();
+   console.log("city")
+ });
+
+
+ function playWindchimes () {
+   var windchimes = new Audio("/sounds/windchimes.mp3");
+     if (windchimes_counter % 2 === 0){
+       windchimes.play();
+       windchimes_counter += 1;
+       windchimes.loop=true;
+     }
+     else {
+       windchimes.pause();
+       windchimes_counter += 1;
+     }
+  }
+
+ $('#windchimes').on('click', function() {
+  let windchimes_counter = 0
+   playWindchimes();
+   console.log("windchimes")
+ });
