@@ -1,3 +1,10 @@
+h1 {
+  text-align: center}
+
+button {
+  width: 100px;
+}
+
 .row1 {
   display: flex;
   justify-content: space-evenly;
