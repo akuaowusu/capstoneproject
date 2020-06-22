@@ -60,6 +60,7 @@ function playAudio(audio){
     if (counter % 2 === 0){
         audio1.play();
         counter += 1;
+        audio1.loop=true;
     }
     else {
         audio1.pause();
