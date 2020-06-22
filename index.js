@@ -42,3 +42,58 @@ $('#campfire').on('click', function() {
   playCampfire();
   console.log("campfire")
 });
+
+function playBeach () {
+  var beach = new Audio("beach.mp3");
+  beach.play();
+  campfire.loop=true;
+}
+
+$('#beach').on('click', function() {
+  playBeach();
+  console.log("beach")
+});
+
+function playTyping () {
+  var typing = new Audio("typing.mp3");
+  typing.play();
+  typing.loop=true;
+}
+
+$('#typing').on('click', function() {
+  playTyping();
+  console.log("typing")
+});
+
+function playCafe () {
+  var cafe = new Audio("cafe.mp3");
+  cafe.play();
+  cafe.loop=true;
+}
+
+$('#cafe').on('click', function() {
+  playCafe();
+  console.log("cafe")
+});
+
+function playCity () {
+  var city = new Audio("city.mp3");
+  city.play();
+  city.loop=true;
+}
+
+$('#city').on('click', function() {
+  playCity();
+  console.log("city")
+});
+
+function playWindchimes () {
+  var windchimes = new Audio("windchimes.mp3");
+  windchimes.play();
+  windchimes.loop=true;
+}
+
+$('#windchimes').on('click', function() {
+  playWindchimes();
+  console.log("windchimes")
+});
