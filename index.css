@@ -1,6 +1,8 @@
 .navbar {
   overflow: hidden;
   background-color: black;
+  display:flex;
+  justify-content: space-evenly;
 }
 
 .navbar a {
