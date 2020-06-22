@@ -1,0 +1,15 @@
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.row3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
