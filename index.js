@@ -1,5 +1,5 @@
 function playRain () {
-  var rain = new Audio("rain.mp3").loop;
+  var rain = new Audio("rain.mp3");
   rain.play();
 }
 
@@ -9,7 +9,7 @@ $('#rain').on('click', function() {
 });
 
 function playWind () {
-  var wind = new Audio("wind.mp3").loop;
+  var wind = new Audio("wind.mp3");
   wind.play();
 }
 
@@ -19,7 +19,7 @@ $('#wind').on('click', function() {
 });
 
 function playBirds () {
-  var birds = new Audio("birds.mp3").loop;
+  var birds = new Audio("birds.mp3");
   birds.play();
 }
 
@@ -29,7 +29,7 @@ $('#birds').on('click', function() {
 });
 
 function playCampfire () {
-  var campfire = new Audio("campfire.mp3").loop;
+  var campfire = new Audio("campfire.mp3");
   campfire.play();
 }
 
