@@ -1,6 +1,6 @@
 .navbar {
   overflow: hidden;
-  background-color: black;
+  background-color: #476269;
   display:flex;
   justify-content: space-evenly;
 }
@@ -20,16 +20,17 @@
 }
 
 .navbar a.active {
-  background-color: lightblue;
-  color: black;
+  background-color: #FFE262;
+  color: white;
+  font-weight: bold;
 }
 
-h1 {
-  text-align: center}
 
 button {
   width: 150px;
   height: 150px;
+  background-color: #FFE262;
+  color: white;
 }
 
 .row1, .row2, .row3 {
@@ -39,19 +40,29 @@ button {
   padding-bottom: 50px
 }
 
+* {
+  margin: 0;
+  padding: 0;
+ }
+
 .parallax1 {
   background-image: url("headphones.jpeg");
   min-height: 100vh;
-  display: block;
-
-
+  display: cover;
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-
+  background-repeat: no-repeat;
+  width: 100%;
+  top: 0;
+  left: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
 
+ .container1 {
+  height: 100vh;
+  position: relative;
+  background-color: #a7b6b4;
  }
 
 h1 {
@@ -61,7 +72,7 @@ h1 {
     width: 30%;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: #97B9B5;
     display: inline-block;
     padding: 18px;
     font-size: 25px;
