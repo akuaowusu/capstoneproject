@@ -1,8 +1,11 @@
 .navbar {
   overflow: hidden;
-  background-color: #476269;
+  background-color: #28324B;
   display:flex;
   justify-content: space-evenly;
+  position: sticky;
+  top: 0px;
+  z-index: 500;
 }
 
 .navbar a {
@@ -81,6 +84,7 @@ iframe {
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
+
 iframe:hover {
   -webkit-filter: brightness(100%);
 
@@ -93,8 +97,8 @@ iframe:hover {
  }
 
 .parallax1 {
-  background-image: url("headphones.jpeg");
-  min-height: 20vh;
+  background-image: url("headopacity.png");
+  min-height: 40vh;
   display: cover;
   background-size: cover;
   background-attachment: fixed;
@@ -108,17 +112,18 @@ iframe:hover {
 
 .container1 {
   position: relative;
-  background-color: #97B9B5;
+  background-color: #535b6f;
+  min-height: 100vh;
  }
 
 h1 {
     position: absolute;
     left: 37%;
-    top: 5%;
+    top: 15%;
     width: 30%;
     text-align: center;
     color: white;
-    background-color: #97B9B5;
+    background-color: #28324B;
     display: inline-block;
     padding: 18px;
     font-size: 30px;
