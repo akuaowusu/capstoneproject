@@ -37,3 +37,8 @@ h1 {
 button {
   width: 100px;
 }
+
+.music {
+  display: block;
+  margin: auto auto;
+}
