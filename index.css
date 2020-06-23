@@ -29,11 +29,37 @@
 button {
   width: 150px;
   height: 150px;
+<<<<<<< HEAD
   background-color: #FFE262;
   color: white;
+=======
+  background-color:lightyellow;
+>>>>>>> 23c88b212f2b0cebfeab7f549b46eb1297b09d3f
 }
 
-.row1, .row2, .row3 {
+button:active {
+  box-shadow: 10px 10px 10px black;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+}
+
+.soundcredit {
+  width: 100%;
+  font-size: xx-small;
+  text-align:center;
+}
+
+.credit {
+  width: 150;
+  font-size: xx-small;
+  text-align:center;
+  margin-top: -40px;
+}
+
+.row1, .row2, .row3, .row {
   display: flex;
   justify-content: space-evenly;
   margin: auto;

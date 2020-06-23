@@ -38,6 +38,7 @@ button {
   width: 100px;
 }
 
+<<<<<<< HEAD
 .parallax1 {
   background-image: url("headphones.jpeg");
   min-height: 50vh;
@@ -51,3 +52,9 @@ button {
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
+=======
+.music {
+  display: block;
+  margin: auto auto;
+}
+>>>>>>> 23c88b212f2b0cebfeab7f549b46eb1297b09d3f
