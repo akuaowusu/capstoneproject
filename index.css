@@ -1,8 +1,11 @@
 .navbar {
   overflow: hidden;
-  background-color: #476269;
+  background-color: #28324B;
   display:flex;
   justify-content: space-evenly;
+  position: sticky;
+  top: 0px;
+  z-index: 500;
 }
 
 .navbar a {
@@ -16,7 +19,7 @@
 }
 
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #476269;
   color: black
 }
 
@@ -30,7 +33,7 @@ button {
   width: 175px;
   height: 175px;
   border-radius: 50%;
-  background-color:#FFE262;
+  background-color: #FFE262;
 }
 
 button:hover {
@@ -79,9 +82,35 @@ img {
  }
 
  .container1 {
-  height: 120vh;
+  height: 50vh;
   position: relative;
-  background-color: #97B9B5;
+  background-color: #535b6f;
+
+ }
+
+ .parallax2 {
+  background-image: url("headopacity.png");
+  min-height: 80vh;
+  display: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  top: 0;
+  left: 0;
+ }
+
+ .about {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+   font-family: American Typewriter, serif;;
  }
 
 h1 {
@@ -91,7 +120,7 @@ h1 {
     width: 30%;
     text-align: center;
     color: white;
-    background-color: #97B9B5;
+    background-color: #28324B;
     display: inline-block;
     padding: 18px;
     font-size: 50px;
