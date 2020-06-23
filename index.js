@@ -46,7 +46,7 @@ $('#campfire').on('click', function() {
     console.log("play campfire")
     }
   else {
-    wind.pause();
+    campfire.pause();
     console.log("pause campfire")
   }
  });
