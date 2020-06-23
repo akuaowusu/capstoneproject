@@ -4,6 +4,7 @@ $('#rain').on('click', function() {
     if (rain.paused) {
       rain.play();
       rain.loop=true;
+      rain.volume = 0.2;
       console.log("rain play")
       }
     else {
@@ -17,6 +18,7 @@ var wind = new Audio("/sounds/wind.mp3");
   if (wind.paused) {
     wind.play();
     wind.loop=true;
+    wind.volume = 0.1;
     console.log("play wind")
     }
   else {
@@ -32,7 +34,7 @@ $('#birds').on('click', function() {
     birds.loop=true;
     console.log("play birds")
     }
-  else {
+  else {i
     birds.pause();
     console.log("pause birds")
   }
@@ -43,6 +45,7 @@ $('#campfire').on('click', function() {
   if (campfire.paused) {
     campfire.play();
     campfire.loop=true;
+    campfire.volume=0.1;
     console.log("play campfire")
     }
   else {
@@ -56,6 +59,7 @@ $('#beach').on('click', function() {
   if (beach.paused) {
     beach.play();
     beach.loop=true;
+    beach.volume=0.1;
     console.log("play beach")
     }
   else {
@@ -69,6 +73,7 @@ $('#typing').on('click', function() {
   if (typing.paused) {
     typing.play();
     typing.loop=true;
+    typing.volume=0.1;
     console.log("play typing")
     }
   else {
@@ -82,6 +87,7 @@ $('#cafe').on('click', function() {
   if (cafe.paused) {
     cafe.play();
     cafe.loop=true;
+    cafe.volume=0.2;
     console.log("play cafe")
     }
   else {
@@ -95,6 +101,7 @@ $('#city').on('click', function() {
   if (city.paused) {
     city.play();
     city.loop=true;
+    city.volume=0.1;
     console.log("play city")
     }
   else {
@@ -108,6 +115,7 @@ $('#windchimes').on('click', function() {
   if (windchimes.paused) {
     windchimes.play();
     windchimes.loop=true;
+    windchimes.volume=0.1;
     console.log("play windchimes")
     }
   else {

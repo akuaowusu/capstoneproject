@@ -12,6 +12,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: American Typewriter, serif;
 }
 
 .navbar a:hover {
@@ -21,42 +22,35 @@
 
 .navbar a.active {
   background-color: #FFE262;
-  color: white;
-  font-weight: bold;
+  color: black;
 }
 
 
 button {
-  width: 150px;
-  height: 150px;
-<<<<<<< HEAD
-  background-color: #FFE262;
-  color: white;
-=======
-  background-color:lightyellow;
->>>>>>> 23c88b212f2b0cebfeab7f549b46eb1297b09d3f
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-color:#FFE262;
+}
+
+button:hover {
+  opacity : 0.6;
 }
 
 button:active {
   box-shadow: 10px 10px 10px black;
 }
 
+
 img {
   width: 130px;
   height: 130px;
 }
 
-.soundcredit {
+.credit {
   width: 100%;
   font-size: xx-small;
-  text-align:center;
-}
-
-.credit {
-  width: 150;
-  font-size: xx-small;
-  text-align:center;
-  margin-top: -40px;
+  text-align: center;
 }
 
 .row1, .row2, .row3, .row {
@@ -82,25 +76,25 @@ img {
   width: 100%;
   top: 0;
   left: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
  .container1 {
-  height: 100vh;
+  height: 120vh;
   position: relative;
-  background-color: #a7b6b4;
+  background-color: #97B9B5;
  }
 
 h1 {
     position: absolute;
     left: 37%;
-    top: 50%;
+    top: 43%;
     width: 30%;
     text-align: center;
     color: white;
     background-color: #97B9B5;
     display: inline-block;
     padding: 18px;
-    font-size: 25px;
+    font-size: 50px;
     letter-spacing: 5px;
+    font-family: American Typewriter, serif;
  }
