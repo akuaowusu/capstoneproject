@@ -1,6 +1,6 @@
 .navbar {
   overflow: hidden;
-  background-color: #476269;
+  background-color: #28324B;
   display:flex;
   justify-content: space-evenly;
 }
@@ -84,7 +84,7 @@ iframe {
 iframe:hover {
   -webkit-filter: brightness(100%);
 
-  
+
 }
 
 * {
@@ -108,7 +108,7 @@ iframe:hover {
 
 .container1 {
   position: relative;
-  background-color: #97B9B5;
+  background-color: #535b6f;
  }
 
 h1 {
@@ -118,12 +118,10 @@ h1 {
     width: 30%;
     text-align: center;
     color: white;
-    background-color: #97B9B5;
+    background-color: #28324B;
     display: inline-block;
     padding: 18px;
     font-size: 30px;
     letter-spacing: 5px;
     font-family: American Typewriter, serif;
  }
-
- 
