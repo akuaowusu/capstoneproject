@@ -30,9 +30,28 @@ h1 {
 button {
   width: 150px;
   height: 150px;
+  background-color:lightyellow;
 }
 
-.row1, .row2, .row3 {
+img {
+  width: 130px;
+  height: 130px;
+}
+
+.soundcredit {
+  width: 100%;
+  font-size: xx-small;
+  text-align:center;
+}
+
+.credit {
+  width: 150;
+  font-size: xx-small;
+  text-align:center;
+  margin-top: -40px;
+}
+
+.row1, .row2, .row3, .row {
   display: flex;
   justify-content: space-evenly;
   margin: auto;
