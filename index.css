@@ -90,7 +90,7 @@ img {
 
  .parallax2 {
   background-image: url("headopacity.png");
-  min-height: 80vh;
+  min-height: 95vh;
   display: cover;
   background-size: cover;
   background-attachment: fixed;
