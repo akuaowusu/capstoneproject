@@ -34,7 +34,7 @@ $('#birds').on('click', function() {
     birds.loop=true;
     console.log("play birds")
     }
-  else {i
+  else {
     birds.pause();
     console.log("pause birds")
   }
