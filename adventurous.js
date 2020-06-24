@@ -4,70 +4,73 @@ $(document).ready(function() {
   var widget1 = SC.Widget(document.getElementById('soundcloud_widget1'));
   widget1.bind(SC.Widget.Events.READY, function() {
     widget1.setVolume(3);
-    console.log('Ready...');
+    widget1.bind(SC.Widget.Events.FINISH, function () {
+      widget2.play();
+    });
   });
-});
 
-$(document).ready(function() {
   var widget2 = SC.Widget(document.getElementById('soundcloud_widget2'));
   widget2.bind(SC.Widget.Events.READY, function() {
     widget2.setVolume(3);
-    console.log('Ready...');
+    widget2.bind(SC.Widget.Events.FINISH, function () {
+      widget3.play();
+    });
   });
-});
 
-$(document).ready(function() {
   var widget3 = SC.Widget(document.getElementById('soundcloud_widget3'));
   widget3.bind(SC.Widget.Events.READY, function() {
     widget3.setVolume(5);
-    console.log('Ready...');
+    widget3.bind(SC.Widget.Events.FINISH, function () {
+      widget4.play();
+    });
   });
-});
 
-$(document).ready(function() {
   var widget4 = SC.Widget(document.getElementById('soundcloud_widget4'));
   widget4.bind(SC.Widget.Events.READY, function() {
     widget4.setVolume(5);
-    console.log('Ready...');
+    widget4.bind(SC.Widget.Events.FINISH, function () {
+      widget5.play();
+    });
   });
-});
 
-$(document).ready(function() {
   var widget5 = SC.Widget(document.getElementById('soundcloud_widget5'));
   widget5.bind(SC.Widget.Events.READY, function() {
     widget5.setVolume(5);
-    console.log('Ready...');
+    widget5.bind(SC.Widget.Events.FINISH, function () {
+      widget6.play();
+    });
   });
-});
 
-$(document).ready(function() {
   var widget6 = SC.Widget(document.getElementById('soundcloud_widget6'));
   widget6.bind(SC.Widget.Events.READY, function() {
     widget6.setVolume(5);
-    console.log('Ready...');
+    widget6.bind(SC.Widget.Events.FINISH, function () {
+      widget7.play();
+    });
   });
-});
 
-$(document).ready(function() {
   var widget7 = SC.Widget(document.getElementById('soundcloud_widget7'));
   widget7.bind(SC.Widget.Events.READY, function() {
     widget7.setVolume(5);
-    console.log('Ready...');
+    widget7.bind(SC.Widget.Events.FINISH, function () {
+      widget8.play();
+    });
   });
-});
 
-$(document).ready(function() {
   var widget8 = SC.Widget(document.getElementById('soundcloud_widget8'));
   widget8.bind(SC.Widget.Events.READY, function() {
     widget8.setVolume(5);
-    console.log('Ready...');
+    widget8.bind(SC.Widget.Events.FINISH, function () {
+      widget9.play();
+    });
   });
-});
 
-$(document).ready(function() {
   var widget9 = SC.Widget(document.getElementById('soundcloud_widget9'));
   widget9.bind(SC.Widget.Events.READY, function() {
     widget9.setVolume(5);
-    console.log('Ready...');
+    widget9.bind(SC.Widget.Events.FINISH, function () {
+      widget1.play();
+    });
   });
 });
+
