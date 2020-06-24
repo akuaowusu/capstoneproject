@@ -164,7 +164,7 @@ h1 {
   font-family:  "American Typewriter", serif;
   text-transform: uppercase;
   font-size: 6em;
-  color: #c2cfee;
+  color: white;
   text-shadow: 0 0 0.6rem #c2cfee, 0 0 1.5rem #a0afd3,
   -0.2rem 0.1rem 1rem #7d8caf, 0.2rem 0.1rem 1rem #5d6b8d,
   0 -0.5rem 2rem #3e4a68, 0 0.5rem 3rem #28324b;
@@ -176,7 +176,7 @@ h1 {
   22%,
   36%,
   75% {
-    color: #c2cfee;
+    color: #5d6b8d;
     text-shadow: 0 0 0.6rem #c2cfee, 0 0 1.5rem #a0afd3,
     -0.2rem 0.1rem 1rem #7d8caf, 0.2rem 0.1rem 1rem #5d6b8d,
     0 -0.5rem 2rem #3e4a68, 0 0.5rem 3rem #28324b;
@@ -203,7 +203,7 @@ h1 {
 
 @keyframes shine {
   0% {
-    color: #28324b;
+    color: white;
     text-shadow: none;
   }
   100% {
