@@ -24,7 +24,7 @@
 }
 
 .navbar a.active {
-  background-color: #FFE262;
+  background-color: #facd07;
   color: black;
 }
 
@@ -34,7 +34,7 @@ button {
   height: 175px;
   border-radius: 50%;
   border: 5px solid #28324B ;
-  background-color: #FFE262;
+  background-color: #facd07;
   padding: 10px;
   outline: none;
 }
@@ -52,13 +52,14 @@ button:active, button.active {
   border: 15px double #28324B ;
   color: #28324B;
   border-collapse: separate;
-  
+
 }
 
 img {
   width: 100px;
   height: 100px;
 }
+
 
 .credit {
   width: 100%;
@@ -112,16 +113,16 @@ img {
  }
 
  .about {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-   font-family: "American Typewriter", serif;
- }
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+ font-family: "American Typewriter", serif;
+}
 
 h1 {
     position: absolute;
@@ -138,7 +139,9 @@ h1 {
     font-family: "Clip"/*American Typewriter, serif*/;
  }
 
+
  .sign {
+
   position: absolute;
   display: flex;
   justify-content: center;

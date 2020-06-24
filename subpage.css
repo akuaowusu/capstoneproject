@@ -24,14 +24,20 @@
 }
 
 .navbar a.active {
-  background-color: #FFE262;
+  background-color: #facd07;
   color: black;
 }
 
 .backgroundnoises {
+  overflow: hidden;
+  background-color: #535b6f;
   display:flex;
   justify-content: space-evenly;
-  height:40px;
+  position: sticky;
+  top: 0px;
+  z-index: 500;
+  top: 47px;
+  height:100px;
 }
 
 button {
@@ -39,7 +45,7 @@ button {
   height: 100px;
   border-radius: 50%;
   border: 5px solid #28324B ;
-  background-color:#FFE262;
+  background-color:#facd07;
   outline: none;
 
 }
@@ -61,7 +67,7 @@ img {
   border: 15px double #28324B ;
   color: #28324B;
   border-collapse: separate;
-  
+
 }
 /*.music {
   display: block;
