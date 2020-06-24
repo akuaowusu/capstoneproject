@@ -4,11 +4,13 @@ $('#rain').on('click', function() {
     if (rain.paused) {
       rain.play();
       rain.loop=true;
+      (this).classList.add('add-outline');
       rain.volume = 0.2;
-      console.log("rain play")
+      console.log("rain play");
       }
     else {
       rain.pause();
+      (this).classList.remove('add-outline');
       console.log("rain pause")
     }
  });
@@ -18,11 +20,13 @@ var wind = new Audio("/sounds/wind.mp3");
   if (wind.paused) {
     wind.play();
     wind.loop=true;
+    (this).classList.add('add-outline');
     wind.volume = 0.1;
     console.log("play wind")
     }
   else {
     wind.pause();
+    (this).classList.remove('add-outline');
     console.log("pause wind")
   }
 });
@@ -32,11 +36,13 @@ $('#birds').on('click', function() {
   if (birds.paused) {
     birds.play();
     birds.loop=true;
-    console.log("play birds")
+    (this).classList.add('add-outline');
+    console.log("play birds");
     }
-  else {i
+  else {
     birds.pause();
-    console.log("pause birds")
+    (this).classList.remove('add-outline');
+    console.log("pause birds");
   }
 });
 
@@ -45,11 +51,13 @@ $('#campfire').on('click', function() {
   if (campfire.paused) {
     campfire.play();
     campfire.loop=true;
+    (this).classList.add('add-outline');
     campfire.volume=0.1;
     console.log("play campfire")
     }
   else {
     campfire.pause();
+    (this).classList.remove('add-outline');
     console.log("pause campfire")
   }
  });
@@ -59,11 +67,13 @@ $('#beach').on('click', function() {
   if (beach.paused) {
     beach.play();
     beach.loop=true;
+    (this).classList.add('add-outline');
     beach.volume=0.1;
     console.log("play beach")
     }
   else {
     beach.pause();
+    (this).classList.remove('add-outline');
     console.log("pause beach")
   }
  });
@@ -74,10 +84,12 @@ $('#typing').on('click', function() {
     typing.play();
     typing.loop=true;
     typing.volume=0.1;
+    (this).classList.add('add-outline');
     console.log("play typing")
     }
   else {
     typing.pause();
+    (this).classList.remove('add-outline');
     console.log("pause typing")
   }
  });
@@ -87,11 +99,13 @@ $('#cafe').on('click', function() {
   if (cafe.paused) {
     cafe.play();
     cafe.loop=true;
+    (this).classList.add('add-outline');
     cafe.volume=0.2;
     console.log("play cafe")
     }
   else {
     cafe.pause();
+    (this).classList.remove('add-outline');
     console.log("pause cafe")
   }
  });
@@ -101,11 +115,13 @@ $('#city').on('click', function() {
   if (city.paused) {
     city.play();
     city.loop=true;
+    (this).classList.add('add-outline');
     city.volume=0.1;
     console.log("play city")
     }
   else {
     city.pause();
+    (this).classList.remove('add-outline');
     console.log("pause city")
   }
  });
@@ -115,11 +131,13 @@ $('#windchimes').on('click', function() {
   if (windchimes.paused) {
     windchimes.play();
     windchimes.loop=true;
+    (this).classList.add('add-outline');
     windchimes.volume=0.1;
     console.log("play windchimes")
     }
   else {
     windchimes.pause();
+    (this).classList.remove('add-outline');
     console.log("pause windchimes")
   }
  });
