@@ -100,7 +100,7 @@ $('#cafe').on('click', function() {
     cafe.play();
     cafe.loop=true;
     (this).classList.add('add-outline');
-    cafe.volume=0.2;
+    cafe.volume=0.4;
     console.log("play cafe")
     }
   else {
