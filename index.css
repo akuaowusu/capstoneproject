@@ -198,7 +198,7 @@ h1 {
 
 @keyframes shine {
   0% {
-    color: #28324b;
+    color: white;
     text-shadow: none;
   }
   100% {
