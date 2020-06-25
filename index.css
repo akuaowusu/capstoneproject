@@ -93,7 +93,7 @@ img {
  }
 
  .container1 {
-  height: 50vh;
+  height: 47vh;
   position: relative;
   background-color: #535b6f;
 
@@ -112,7 +112,7 @@ img {
   left: 0;
  }
 
- 
+
 
 h1 {
     position: absolute;
@@ -331,12 +331,12 @@ h1 {
   margin: 0;
   transform: translate(106%,-10%);
   text-align: center;
-  color:  #c2cfee;
+  color:  #dae3f7;
   font-family: "American Typewriter", serif;
 }
 
 p {
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   line-height: 22px;
   font-family: "American Typewriter", serif;
 }
@@ -387,4 +387,3 @@ html[xmlns] .clearfix {
 * html .clearfix {
   height: 1%;
 }
-
