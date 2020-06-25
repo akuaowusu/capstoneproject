@@ -69,8 +69,55 @@ $(document).ready(function() {
   widget9.bind(SC.Widget.Events.READY, function() {
     widget9.setVolume(5);
     widget9.bind(SC.Widget.Events.FINISH, function () {
+      widget10.play();
+    });
+  });
+
+  var widget10 = SC.Widget(document.getElementById('soundcloud_widget10'));
+  widget10.bind(SC.Widget.Events.READY, function() {
+    widget10.setVolume(5);
+    widget10.bind(SC.Widget.Events.FINISH, function () {
+      widget11.play();
+    });
+  });
+
+  var widget11 = SC.Widget(document.getElementById('soundcloud_widget11'));
+  widget11.bind(SC.Widget.Events.READY, function() {
+    widget11.setVolume(5);
+    widget11.bind(SC.Widget.Events.FINISH, function () {
+      widget12.play();
+    });
+  });
+
+  var widget12 = SC.Widget(document.getElementById('soundcloud_widget12'));
+  widget12.bind(SC.Widget.Events.READY, function() {
+    widget12.setVolume(5);
+    widget12.bind(SC.Widget.Events.FINISH, function () {
+      widget13.play();
+    });
+  });
+
+  var widget13 = SC.Widget(document.getElementById('soundcloud_widget13'));
+  widget13.bind(SC.Widget.Events.READY, function() {
+    widget13.setVolume(5);
+    widget13.bind(SC.Widget.Events.FINISH, function () {
+      widget14.play();
+    });
+  });
+
+  var widget14 = SC.Widget(document.getElementById('soundcloud_widget14'));
+  widget14.bind(SC.Widget.Events.READY, function() {
+    widget14.setVolume(5);
+    widget14.bind(SC.Widget.Events.FINISH, function () {
+      widget15.play();
+    });
+  });
+
+  var widget15 = SC.Widget(document.getElementById('soundcloud_widget15'));
+  widget15.bind(SC.Widget.Events.READY, function() {
+    widget15.setVolume(5);
+    widget15.bind(SC.Widget.Events.FINISH, function () {
       widget1.play();
     });
   });
 });
-
